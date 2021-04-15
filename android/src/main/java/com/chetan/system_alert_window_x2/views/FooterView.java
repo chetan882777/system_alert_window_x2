@@ -87,7 +87,7 @@ public class FooterView {
             Button button60 = view.findViewById(R.id.button_60);
             Button button60Plus = view.findViewById(R.id.button_60_plus);
 
-            button5.setOnClickListener(v -> SystemAlertWindowX2Plugin.invokeCallBack(context, "onClick", "5min"));
+            button5.setOnClickListener(v -> SystemAlertWindowX2Plugin.invokeCallBack(context, "onClick", "05min"));
             button10.setOnClickListener(v -> SystemAlertWindowX2Plugin.invokeCallBack(context, "onClick", "10min"));
             button15.setOnClickListener(v -> SystemAlertWindowX2Plugin.invokeCallBack(context, "onClick", "15min"));
             button20.setOnClickListener(v -> SystemAlertWindowX2Plugin.invokeCallBack(context, "onClick", "20min"));
@@ -99,7 +99,7 @@ public class FooterView {
             button50.setOnClickListener(v -> SystemAlertWindowX2Plugin.invokeCallBack(context, "onClick", "50min"));
             button55.setOnClickListener(v -> SystemAlertWindowX2Plugin.invokeCallBack(context, "onClick", "55min"));
             button60.setOnClickListener(v -> SystemAlertWindowX2Plugin.invokeCallBack(context, "onClick", "60min"));
-            button60Plus.setOnClickListener(v -> SystemAlertWindowX2Plugin.invokeCallBack(context, "onClick", "60Pmin"));
+            button60Plus.setOnClickListener(v -> SystemAlertWindowX2Plugin.invokeCallBack(context, "onClick", "65Pmin"));
 
             linearLayout.addView(view);
 
