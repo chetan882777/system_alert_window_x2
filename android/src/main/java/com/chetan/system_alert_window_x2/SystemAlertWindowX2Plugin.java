@@ -84,6 +84,7 @@ public class SystemAlertWindowX2Plugin implements MethodCallHandler, FlutterPlug
   @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
   @Override
   public void onMethodCall(MethodCall call, @NonNull Result result) {
+    Log.d(TAG, "onMethodCall: =========================CALLED :" + call.method);
     switch (call.method) {
       case "getPlatformVersion":
         result.success("Android " + Build.VERSION.RELEASE);
